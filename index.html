@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
-    <!-- Add favicon -->
+    <!-- ADD FAVICON -->
     <link rel="shortcut icon" href="9249658.png" type="image/x-icon">
 
-    <title>Portfolio | bvy</title>
+    <title>Portfolio | BVY</title>
 </head>
 
 <body>
-    <div class="container">
+    < class="container">
         <!-- --------------- HEADER --------------- -->
         <nav id="header">
             <div class="nav-logo">
@@ -45,7 +45,7 @@
             </div>
             <div class="nav-button">
                 <a href="cv.pdf" target="_blank">
-                    <button class="btn">Download CV  
+                    <button class="btn">Download CV
                         <i class="uil uil-file-alt"></i>
                     </button>
                 </a>
@@ -62,20 +62,19 @@
             <section class="featured-box" id="home">
                 <div class="featured-text">
                     <div class="featured-text-card">
-                        <span>Bhavya Patel</span>
+                        <span>Bhavyakumar Patel</span>
                     </div>
                     <div class="featured-name">
                         <p>I'm <span class="typedText"></span></p>
                     </div>
                     <div class="featured-text-info">
-                        <p>Experienced frontend developer with a passion for creating visually stunning
-                            and user-friendly websites.
+                        <p>I am a Network Engineer and Web Designer specializing in secure network infrastructure and responsive, user-focused web solutions.
                         </p>
                     </div>
                     <div class="featured-text-btn">
                         <button class="btn blue-btn">Hire Me</button>
                         <a href="cv.pdf" target="_blank">
-                            <button class="btn">Download CV 
+                            <button class="btn">Download CV
                                 <i class="uil uil-file-alt"></i>
                             </button>
                         </a>
@@ -117,7 +116,7 @@
 
             </section>
             <!-- -------------- ABOUT BOX ---------------- -->
-            <section class="section" id="about">
+            < class="section" id="about">
                 <div class="top-header">
                     <h1>About Me</h1>
                 </div>
@@ -125,14 +124,15 @@
                     <div class="col">
                         <div class="about-info">
                             <h3>My introduction</h3>
-                            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
-                                frameworks and libraries,which allows me to implement interactive features.
-                                Additionally, I have experirence working with content management systems (CMS) like
-                                WordPress.
+                            <div class="p1"><p>I am a Network Engineer and Web Designer with a strong interest in building reliable, user-focused digital systems. As a network engineer,
+                                 I specialize in configuring, managing, and securing network infrastructures.
+                                 I have experience troubleshooting network issues, optimizing connectivity, and ensuring stable and secure communication systems.</div><br>
+
+                                <div class="p2"><p>Alongside that, as a web designer, I focus on creating responsive, visually appealing, and user-friendly websites that deliver smooth user experiences across different devices.</div></p>
                             </p>
                             <div class="about-btn">
                                 <a href="cv.pdf" target="_blank">
-                                    <button class="btn">Download CV  
+                                    <button class="btn">Download CV
                                         <i class="uil uil-import"></i>
                                     </button>
                                 </a>
@@ -140,6 +140,7 @@
                         </div>
                     </div>
                     <div class="col">
+                        <div class="skills-container">
                         <div class="skills-box">
                             <div class="skills-header">
                                 <h3>Frontend</h3>
@@ -149,7 +150,9 @@
                                 <span>CSS</span>
                                 <span>Bootstrap</span>
                                 <span>JavaScript</span>
-                            
+                                <!-- <span>Vue</span>
+                                <span>React</span>
+                                <span>Angular</span> -->
                             </div>
                         </div>
                         <div class="skills-box">
@@ -169,12 +172,25 @@
                             </div>
                             <div class="skills-list">
                                 <span>MySQL</span>
-<!--                                 <span>PostgreSQL</span>
+                                <!-- <span>PostgreSQL</span>
                                 <span>MongoDB</span> -->
+                            </div>
+                        </div>
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Tools & Technology </h3>
+                                </div>
+                                <div class="skills-list">
+                                <span>PHP</span>
+                                <span>JAVA</span>
+                                <span>Python</span>
+                                <span>C++</span>
+                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
+        </div>
             </section>
 
             <!-- -------------- PROJECT BOX ---------------- -->
@@ -218,7 +234,20 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="form-control">
+                        <form action="submit.php" method="POST" class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" name="name" placeholder="Name" required>
+                                <input type="email" class="input-field" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+
+                        <!-- <div class="form-control">
                             <div class="form-inputs">
                                 <input type="text" class="input-field" placeholder="Name">
                                 <input type="text" class="input-field" placeholder="Email">
@@ -229,7 +258,7 @@
                             <div class="form-button">
                                 <button class="btn">Send <i class="uil uil-message"></i></button>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
